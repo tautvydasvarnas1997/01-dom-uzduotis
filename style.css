@@ -20,6 +20,10 @@ html, body {
     box-shadow:0 0 20px rgba(0,0,0,0.02);
 }
 
+.block-wrapper h1, h2 {
+    text-align: center;
+}
+
 h1, h2, h3, h4, h4, h5, h6 {
     font-weight:900;
 }
@@ -60,10 +64,17 @@ h1, h2, h3, h4, h4, h5, h6 {
 
 #calculate {
     border-radius: 50%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
 }
 
 #reset {
     border-radius: 50%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
 }
 
 #calculate:hover {
